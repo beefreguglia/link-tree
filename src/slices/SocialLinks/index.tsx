@@ -10,7 +10,7 @@ const SocialLinks: FC<SocialLinksProps> = ({ slice }) => {
 		<section
 			data-slice-type={slice.slice_type}
 			data-slice-variation={slice.variation}
-			className="flex flex-wrap items-center justify-center gap-4 py-6"
+			className="flex flex-wrap items-center justify-center gap-4 py-4 md:py-6"
 		>
 			{slice.primary.social_link.map((item, index) => {
 				const href = asLink(item.social_url);

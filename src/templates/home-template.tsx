@@ -19,7 +19,7 @@ export function HomeTemplate({ page }: HomeTemplateProps) {
 
 	return (
 		<BackgroundImage>
-			<main className="flex min-h-screen min-w-lg flex-col items-center gap-4 pt-14 pb-8">
+			<main className="flex min-h-screen w-full flex-col items-center gap-4 pt-14 pb-8">
 				{profileSlice && (
 					<SliceZone slices={[profileSlice]} components={components} />
 				)}
@@ -30,9 +30,7 @@ export function HomeTemplate({ page }: HomeTemplateProps) {
 
 				<SliceZone slices={otherSlices} components={components} />
 
-				<p className="py-6 text-center text-text">
-					Feito com ♥ pela Rocketseat
-				</p>
+				<p className="py-2 text-center text-text md:py-6">Feito com ♥</p>
 			</main>
 		</BackgroundImage>
 	);

@@ -11,7 +11,7 @@ const LinkButtons: FC<LinkButtonsProps> = ({ slice }) => {
 		<section
 			data-slice-type={slice.slice_type}
 			data-slice-variation={slice.variation}
-			className="flex w-full flex-col gap-4"
+			className="flex w-full flex-col gap-4 px-4"
 		>
 			{slice.primary.linkbuttons.map((item, index) => (
 				<Button key={`button-${index}`} asChild>
