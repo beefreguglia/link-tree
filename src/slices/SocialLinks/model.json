@@ -1,0 +1,46 @@
+{
+  "id": "social_links",
+  "type": "SharedSlice",
+  "name": "SocialLinks",
+  "description": "SocialLinks",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "social_link": {
+          "type": "Group",
+          "config": {
+            "label": "social link",
+            "repeat": true,
+            "fields": {
+              "platform": {
+                "type": "Text",
+                "config": {
+                  "label": "platform",
+                  "placeholder": "social platform"
+                }
+              },
+              "social_url": {
+                "type": "Link",
+                "config": {
+                  "label": "social url",
+                  "placeholder": "link social media",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

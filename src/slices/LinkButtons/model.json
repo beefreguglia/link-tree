@@ -1,0 +1,46 @@
+{
+  "id": "link_buttons",
+  "type": "SharedSlice",
+  "name": "LinkButtons",
+  "description": "LinkButtons",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "linkbuttons": {
+          "type": "Group",
+          "config": {
+            "label": "linkbuttons",
+            "repeat": true,
+            "fields": {
+              "url": {
+                "type": "Link",
+                "config": {
+                  "label": "url",
+                  "placeholder": "url of link button",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              },
+              "button_text": {
+                "type": "Text",
+                "config": {
+                  "label": "button text",
+                  "placeholder": "text of button"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

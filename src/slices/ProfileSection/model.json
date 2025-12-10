@@ -1,0 +1,34 @@
+{
+  "id": "profile_section",
+  "type": "SharedSlice",
+  "name": "ProfileSection",
+  "description": "ProfileSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "avatar_image": {
+          "type": "Image",
+          "config": {
+            "label": "Avatar image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "username": {
+          "type": "Text",
+          "config": {
+            "label": "username",
+            "placeholder": "username (it shows @username)"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

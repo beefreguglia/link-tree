@@ -1,0 +1,39 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"social_link": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"platform",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "over",
+									"type": "Text"
+								}
+							],
+							[
+								"social_url",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "a96076fd-4d1c-4bb7-b3ca-cae3f21c4bc4",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "hollow"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
